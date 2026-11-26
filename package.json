@@ -1,0 +1,15 @@
+{
+  "name": "blitz-proxy",
+  "version": "1.0.0",
+  "description": "VLESS over WebSocket proxy on blitz.cloud (EU). Health endpoints are public; the VLESS UUID is the auth.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
